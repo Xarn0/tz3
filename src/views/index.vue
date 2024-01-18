@@ -118,7 +118,7 @@ export default {
         },
         {
           title:"Отправить на стоянку",
-          price:"400",
+          
           element:"crown"
 
         },
@@ -152,22 +152,22 @@ export default {
           price:"42300",
           element:"greenDollars"
         }
-        ,
-        {
-          title:"Отправить на стоянку",
-          price:"42300",
-          element:"greenDollars"
-        },
-          {
-            title:"Отправить на стоянку",
-            price:"400",
-            element:"greenDollars"
-          },
-          {
-            title:"Отправить на стоянку",
-            price:"400",
-            element:"greenDollars"
-          },
+        // ,
+        // {
+        //   title:"Отправить на стоянку",
+        //   price:"42300",
+        //   element:"greenDollars"
+        // },
+        //   {
+        //     title:"Отправить на стоянку",
+        //     price:"400",
+        //     element:"greenDollars"
+        //   },
+        //   {
+        //     title:"Отправить на стоянку",
+        //     price:"400",
+        //     element:"greenDollars"
+        //   },
         // {
         //   title:"Отправить на стоянку",
         //   price:"400",
@@ -260,7 +260,7 @@ export default {
     margin-top: 2rem;
     flex-wrap: wrap;
     // height: 50vh;
-    font-family: DIN Pro;
+    font-family:DIN Pro;
     font-size: 2rem;
     font-weight: 500;
   
@@ -291,6 +291,8 @@ export default {
       width: 100vw;
      justify-content: center;
      align-items: center;
+     display: flex;
+     height: 70vh;
     }
   }
   &__item{
